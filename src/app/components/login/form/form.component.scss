@@ -1,0 +1,135 @@
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+
+
+.row:first-child {
+    margin-top: 0;
+}
+.row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media (min-width: 350px) {
+    .btn-apple,
+    .btn-facebook,
+    .btn-google {
+        padding-top: 14px;
+    }
+
+    .btn-apple:before,
+    .btn-facebook:before,
+    .btn-google:before {
+        font-family: Font Awesome\5 Brands;
+        font-size: 16px;
+        margin-right: 14px;
+    }
+
+    .btn-facebook:before {
+        display: inline-block;
+        content: "\F09A";
+    }
+}
+.btn,
+.navbar .navbar-nav .navbar-btn {
+    padding: 16px 14px 18px;
+}
+.btn-facebook {
+    color: #fff!important;
+    background-color: #3b5998;
+}
+.btn,
+.navbar .navbar-nav .navbar-btn {
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 16px 48px 18px;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: 0.3s;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn,
+.navbar .navbar-nav .navbar-btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+    padding: 7px 12px 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+[role="button"] {
+    cursor: pointer;
+}
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+a {
+    color: #15883e;
+}
+
+a {
+    background-color: transparent;
+}
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
